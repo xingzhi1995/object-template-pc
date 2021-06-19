@@ -3,8 +3,19 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import plugins from './components/index'
+import './style/style.sass'
+import './style/style.css'
+import './style/style.styl'
+import './iconfont/iconfont.css'
+import Global from './global/global'
 
+Vue.prototype.global=Global
+Vue.use(ElementUI);
 Vue.config.productionTip = false
+Vue.use(plugins);
 
 /* eslint-disable no-new */
 new Vue({

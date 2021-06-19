@@ -1,0 +1,8 @@
+{
+  "loading": {
+    "text":"正在加载",
+    "spinner":"el-icon-loading",
+    "customClass":"loading",
+    "lock": true
+  }
+}
