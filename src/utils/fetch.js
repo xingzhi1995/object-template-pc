@@ -4,7 +4,7 @@ import global from '../global/global'
 import store from "../vuex/store";
 import { Loading } from 'element-ui';
 
-let loadingInstance = Loading.service(global.jsonp.loading);
+let loadingInstance = null
 
 // 创建axios实例
 const service = axios.create({
@@ -20,7 +20,7 @@ service.interceptors.request.use(
         if (token) {
             request.headers[global.tokenKey] = token;
         }
-
+        loadingInstance=Loading.service(global.jsonp.loading);
         return request;
     },
     error => {
@@ -39,8 +39,8 @@ service.interceptors.response.use(
         const res = response.data
         switch (res.code) {
             case 200:
-                if (res.result==null){
-                    global.message('danger',res.message);
+                if (res.result==null||res.result==''||res.result=={}||res.result==[]||res.result==undefined){
+                    return []
                 }else {
                     return res;
                 }

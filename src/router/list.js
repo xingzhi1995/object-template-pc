@@ -1,5 +1,6 @@
 import test from "../view/test";
 import container from '../view/container'
+import error from "../view/public/error";
 
 export const list = [
     {
@@ -11,5 +12,10 @@ export const list = [
         path: '/test',
         name: 'test',
         component: test
+    },
+    {
+        path: '/error',
+        name: 'error',
+        component: error
     }
 ]

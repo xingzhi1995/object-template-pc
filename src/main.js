@@ -11,6 +11,7 @@ import './style/style.css'
 import './style/style.styl'
 import './iconfont/iconfont.css'
 import Global from './global/global'
+import './iconfont/iconfont'
 
 Vue.prototype.global=Global
 Vue.use(ElementUI);
