@@ -1,7 +1,9 @@
 <template>
     <div id="error">
-        <VsvgIcon :name="'error'" :fontsize="'20vh'" :color="'black'"></VsvgIcon>
+        <Vsvgicon :name="'error'" :width="'30vw'" :height="'30vh'"></Vsvgicon>
+        <div class="errorCode">400</div>
         <div class="errorText">{{global.errorText}}</div>
+        <Vconfirmbtn :label="'重试'" @onClick="global.cancel()"></Vconfirmbtn>
     </div>
 </template>
 

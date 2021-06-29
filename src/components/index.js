@@ -13,7 +13,6 @@ function plugins(Vue) {
         const componentName = changeStr(
             fileName.replace(/^\.\//, '').replace(/\.\w+$/, '')   // ./child1.vue => child1
         )
-        console.log('componentName====', componentName)
         Vue.component(componentName, config.default || config) // 动态注册该目录下的所有.vue文件
     })
 }

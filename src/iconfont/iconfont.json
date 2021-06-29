@@ -6,11 +6,18 @@
   "description": "乐豆家-通用图标",
   "glyphs": [
     {
-      "icon_id": "14223734",
-      "name": "404",
+      "icon_id": "12024873",
+      "name": "暂无数据",
+      "font_class": "empty",
+      "unicode": "e8a8",
+      "unicode_decimal": 59560
+    },
+    {
+      "icon_id": "22081417",
+      "name": "异常",
       "font_class": "error",
-      "unicode": "e601",
-      "unicode_decimal": 58881
+      "unicode": "e600",
+      "unicode_decimal": 58880
     },
     {
       "icon_id": "1383728",
@@ -25,13 +32,6 @@
       "font_class": "xiugai",
       "unicode": "e60a",
       "unicode_decimal": 58890
-    },
-    {
-      "icon_id": "16656859",
-      "name": "暂无数据",
-      "font_class": "zanwushuju",
-      "unicode": "e6e7",
-      "unicode_decimal": 59111
     }
   ]
 }

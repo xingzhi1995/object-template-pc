@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2623145 */
-  src: url('iconfont.woff2?t=1624259336709') format('woff2'),
-       url('iconfont.woff?t=1624259336709') format('woff'),
-       url('iconfont.ttf?t=1624259336709') format('truetype');
+  src: url('iconfont.woff2?t=1624952204844') format('woff2'),
+       url('iconfont.woff?t=1624952204844') format('woff'),
+       url('iconfont.ttf?t=1624952204844') format('truetype');
 }
 
 .iconfont {
@@ -13,8 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ldj-empty:before {
+  content: "\e8a8";
+}
+
 .ldj-error:before {
-  content: "\e601";
+  content: "\e600";
 }
 
 .ldj-chaxun:before {
@@ -23,9 +27,5 @@
 
 .ldj-xiugai:before {
   content: "\e60a";
-}
-
-.ldj-zanwushuju:before {
-  content: "\e6e7";
 }
 

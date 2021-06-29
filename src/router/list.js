@@ -6,16 +6,18 @@ export const list = [
     {
         path: '/',
         name: 'container',
-        component: container
+        component: container,
+        children:[
+            {
+                path: '/error',
+                name: 'error',
+                component: error
+            }
+        ]
     },
     {
         path: '/test',
         name: 'test',
         component: test
-    },
-    {
-        path: '/error',
-        name: 'error',
-        component: error
     }
 ]

@@ -2,7 +2,8 @@
     <Container>
         <div slot="header">1111</div>
         <div slot="cont">
-            <p v-for="i in 100">{{i}}</p>
+<!--            <router-view></router-view>-->
+            <Vempty></Vempty>
         </div>
     </Container>
 </template>
