@@ -6,12 +6,12 @@ import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import plugins from './components/index'
-import './style/style.sass'
 import './style/style.css'
 import './style/style.styl'
 import './iconfont/iconfont.css'
 import Global from './global/global'
 import './iconfont/iconfont'
+// import './style/style.sass';
 
 Vue.prototype.global=Global
 Vue.use(ElementUI);
