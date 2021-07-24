@@ -4,5 +4,7 @@
     "spinner":"el-icon-loading",
     "customClass":"loading",
     "lock": true
-  }
+  },
+  "dateTimeFormat": "yyyy-MM-dd HH:mm:ss",
+  "dateFomat": "yyyy-MM-dd"
 }
